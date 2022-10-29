@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Aplicación de ejercicio 01</title>
+    <link type="text/css" href="css/cupertino/jquery-ui-1.8.1.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+    <script>
+        function MensajeHola(){
+            document.getElementById("Entrada").innerHTML="hola mundo";
+        }
+        function MensajeSuma(){
+            a=10;
+            b=20;
+            c=a+b;
+            document.getElementById("Suma").innerHTML=c+"";
+        }
+    </script>
+    <script src="demo.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hola</h1>
+    </header>
+
+    <p id="Entrada">Inicio</p>
+    <p id="Suma"></p>
+    <p id="Producto"></p>
+    <textarea id="Suma1"></textarea>
+    <button type="button" onclick="MensajeHola()">Mensaje</button>
+    <button type="button" onclick="MensajeSuma()">Suma</button>
+    <button type="button" onclick="MensajeProducto()">PRoducto</button>
+    <button type="button" onclick="Alertas()">Mensaje Alertas</button>
+    <button type="button" onclick="Printers()">Mensaje de Printers </button>
+    <button type="button" onclick="Ingreso()">Ingreso </button><br>
+    
+
+    <header>
+        <h1>Ejercicios</h1>
+    </header>
+
+
+    <p id="Entrada1">Ejercicio 1 </p>
+    <p id="nota">Ingrese un numero de 3 digitos </p>
+    <textarea id="aInvertir"></textarea>
+    <button type="button" onclick="Invertir()">Invertir </button>
+    <br>
+
+    <p id="Entrada2">Ejercicio 2 </p>
+    <p id="nota2">Ingrese 3 numeros </p>
+    <textarea id="mayor1"></textarea>
+    <textarea id="mayor2"></textarea>
+    <textarea id="mayor3"></textarea>
+    <button type="button" onclick="Mayor()">Mayor de tres </button>
+    <br>
+
+    <p id="Entrada3">Ejercicio 3 </p>
+    <p id="nota3">Ingrese 3 numeros </p>
+    <textarea id="segundoMenor1"></textarea>
+    <textarea id="segundoMenor2"></textarea>
+    <textarea id="segundoMenor3"></textarea>
+    <button type="button" onclick="SegundoMenor()">Segundo Menor de 3 </button>
+    <br>
+
+    <p id="Entrada4">Ejercicio 4 </p>
+    <p id="nota4">Ingrese una cifra </p>
+    <textarea id="Cifra"></textarea>
+    <button type="button" onclick="GradosMinSeg()">Grados Min Seg </button>
+    
+    
+    
+</body>
+</html>
